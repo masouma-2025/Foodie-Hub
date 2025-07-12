@@ -1,0 +1,576 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap" rel="stylesheet">
+    <link rel="icon" href="photo/logo.png">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Foodie Hub</title>
+ </head>
+ <body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"crossorigin="anonymous"></script>
+    <header>
+    <img src="photo/banner.avif" alt="banner" class="title-photo">
+    <div class="title">
+      <h1>Welcome to Foodie Hub</h1>
+      <p>Get your favorite dishes delivered fast</p>
+      <a class="btn btn-outline-warning  btn-sm px-4 m-3" href="#" role="button">Log in</a>
+     <a class="btn btn-outline-success   btn-sm px-4 m-3" href="#" role="button">Sign Up</a>
+    </div>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <p class="navbar-brand text-warning" href="#"><img src="photo/logo.png" style="width: 40px; height:40px ;">Foodie<span style="color:black;">Hub</span> </p>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ps-5" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item me-4">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item  me-4">
+              <a class="nav-link" href="#Restaurantlist">Restaurants</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="nav-link" href="#about" aria-expanded="true">
+                About
+              </a>
+            </li>
+            <li class="nav-item me-4">
+              <a href="#contact" class="nav-link" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+    <main>
+
+     <!-- Restorants  list-->
+    <div class="container" id="Restaurantlist">
+      <h2 class="text-center mt-4">Our Restaurants</h2>
+       <div class="row  mt-4 g-4">
+         <div class="col-12 col-md-4">
+            <div class="card">
+            <img src="photo/OIP.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <a href="#"><i class="fa-solid fa-location-dot "></i></a>
+              <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
+              <a href="#"><i class="fa-solid fa-truck me-2 "></i></a>
+             <h5 class="card-title">ARG Restaurant</h5>
+             <p class="text-muted fst-italic">"Taste the tradition with every bite"</p>
+             <p class="mb-1">
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="far fa-star text-warning"></i>
+             <small class="text-muted ms-2">(87 reviews)</small></p>
+             <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#menuARG">View Menu</button>
+             </div>
+            </div>
+         </div>
+
+        <div class="col-12 col-md-4">
+            <div class="card">
+            <img src="photo/Rayhan.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <a href="#"><i class="fa-solid fa-location-dot "></i></a>
+              <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
+              <a href="#"><i class="fa-solid fa-truck me-2 "></i></a>
+             <h5 class="card-title">Luky Five</h5>
+             <p class="text-muted fst-italic">"Where Flavor Meets Fortune</p>
+             <p class="mb-1">
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <small class="text-muted ms-2">(90 reviews)</small></p>
+            <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#menuLuky">View Menu </button>
+             </div>
+            </div>
+         </div>
+
+         <div class="col-12 col-md-4">
+            <div class="card">
+            <img src="photo/fifty2.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <a href="#"><i class="fa-solid fa-location-dot "></i></a>
+              <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
+              <a href="#"><i class="fa-solid fa-truck me-2 "></i></a>
+             <h5 class="card-title">Fifty Fifty</h5>
+             <p class="text-muted fst-italic">"When You Can't Choose, Enjoy Both"</p>
+             <p class="mb-1">
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star-half-alt text-warning"></i>
+             <i class="far fa-star text-warning"></i>
+             <small class="text-muted ms-2">(70 reviews)</small></p>
+             <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#menuFifty">View Menu </button>
+             </div>
+            </div>
+         </div>
+
+         <div class="col-12 col-md-4">
+            <div class="card">
+            <img src="photo/OIP (1).webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <a href="#"><i class="fa-solid fa-location-dot "></i></a>
+              <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
+              <a href="#"><i class="fa-solid fa-truck me-2 "></i></a>
+             <h5 class="card-title">Qoqnoos</h5>
+             <p class="text-muted">"A Mythical Taste Reborn"</p>
+             <p class="mb-1">
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star-half-alt text-warning"></i>
+             <i class="far fa-star text-warning"></i>
+             <small class="text-muted ms-2">(89 reviews)</small></p>
+             <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#menuQoqnoos">View Menu </button>
+             </div>
+            </div>
+         </div>
+
+         <div class="col-12 col-md-4">
+            <div class="card">
+            <img src="photo/Parmes.webp" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <a href="#"><i class="fa-solid fa-location-dot "></i></a>
+              <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
+              <a href="#"><i class="fa-solid fa-truck me-2 "></i></a>
+             <h5 class="card-title">Parames</h5>
+             <p class="text-muted fst-italic">"The Colors & Flavors of Italy — Right Here"</p>
+             <p class="mb-1">
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star-half-alt text-warning"></i>
+             <i class="far fa-star text-warning"></i>
+             <small class="text-muted ms-2">(70 reviews)</small></p>
+             <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#menuParmes">View Menu </button>
+             </div>
+            </div>
+         </div>
+
+         <div class="col-12 col-md-4">
+            <div class="card">
+            <img src="photo/ziyafat.jpg" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <a href="#"><i class="fa-solid fa-location-dot "></i></a>
+              <a href="#"><i class="fa-solid fa-calendar-days"></i></a>
+              <a href="#"><i class="fa-solid fa-truck me-2 "></i></a>
+             <h5 class="card-title">ziyafat</h5>
+             <p class="text-muted fst-italic">"A Feast for Your Unique Taste"</p>
+             <p class="mb-1">
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <i class="fas fa-star text-warning"></i>
+             <small class="text-muted ms-2">(120 reviews)</small></p>
+             <button type="button" class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#menuZiyafat">View Menu </button>
+             </div>
+            </div>
+         </div>
+        </div>
+    </div>
+    <!-- Menu-->
+     <!-- ARGMenu -->
+   <div class="modal fade" id="menuARG" tabindex="-1" aria-labelledby="menuARGLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuARGLabel">ARG Restaurant Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Food</th>
+              <th>Price</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kabuli Pulao</td>
+              <td>$22</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+            <tr>
+              <td>Kabab</td>
+              <td>$10</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+            <tr>
+              <td>Mantoo</td>
+              <td>$13</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+            <tr>
+              <td>Dolmeh Barge</td>
+              <td>$21</td>
+              <td><span class="badge bg-danger">Unavilable</span></td>
+            </tr>
+            <tr>
+              <td>Kichiri</td><td>$19</td>
+              <td><span class="badge bg-danger">Unavilable</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Luky Menu -->
+<div class="modal fade" id="menuLuky" tabindex="-1" aria-labelledby="menuLukyLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuLukyLabel">Luky Five Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Food</th>
+              <th>Price</th>
+              <th>Status</th>
+            </tr>
+            </thead>
+          <tbody>
+            <tr>
+              <td>Kobedag</td>
+              <td>$18</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+            <tr>
+              <td>Joojeh Kabab</td>
+              <td>$16</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+            <tr>
+              <td>Fish Chips</td>
+              <td>$22</td>
+              <td><span class="badge bg-danger">Unavailable</span></td>
+            </tr>
+            <tr>
+              <td>Fattoush Salad</td>
+              <td>$16</td>
+              <td><span class="badge bg-danger">Unavailable</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Fifty Menu -->
+<div class="modal fade" id="menuFifty" tabindex="-1" aria-labelledby="menuFiftyLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuFiftyLabel">Fifty Fifty Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Food</th>
+              <th>Price</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Pizza</td>
+              <td>$12</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+            <tr>
+              <td>Chicken Burger</td>
+              <td>$9</td>
+              <td><span class="badge bg-danger">Unvailable</span></td>
+            </tr>
+             <tr>
+              <td>Season Salad</td>
+              <td>$9</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+             <tr>
+              <td>Nuggeets </td>
+              <td>$9</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Qoqnoos Menu -->
+<div class="modal fade" id="menuQoqnoos" tabindex="-1" aria-labelledby="menuQoqnoosLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuQoqnoosLabel">Qoqnoos Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Food</th>
+              <th>Price</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Bolani</td>
+              <td>$5</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+            <tr>
+              <td>Chicken Gringer</td>
+              <td>$8</td>
+              <td><span class="badge bg-danger">Unavailable</span></td>
+            </tr>
+             <tr>
+              <td>Beef Burger</td>
+              <td>$10</td>
+              <td><span class="badge bg-success">Aavailable</span></td>
+            </tr>
+             <tr>
+              <td>Greek slad</td>
+              <td>$8</td>
+              <td><span class="badge bg-success">Avaalibale</span></td>
+            </tr>
+             <tr>
+              <td>Apple Milkshake</td>
+              <td>$10</td>
+              <td><span class="badge bg-danger">Unavailable</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Parmes Menu -->
+<div class="modal fade" id="menuParmes" tabindex="-1" aria-labelledby="menuParmesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuParmesLabel">Parmes Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Food</th>
+              <th>Price</th>
+              <th>Status</th>
+            </tr>
+            </thead>
+          <tbody>
+            <tr>
+              <td>Soup</td>
+              <td>$7</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+             <tr>
+              <td>Deal Mash</td>
+              <td>$10</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+             <tr>
+              <td>Qauil Kabab</td>
+              <td>$13</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+            <tr>
+              <td>Special Juice</td>
+              <td>$9</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Ziyafat Menu -->
+<div class="modal fade" id="menuZiyafat" tabindex="-1" aria-labelledby="menuZiyafatLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="menuZiyafatLabel">Ziyafat Menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>Food</th>
+              <th>Price</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Chapli Kabab</td>
+              <td>$11</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+            <tr>
+              <td>Kofta</td>
+              <td>$10</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+             <tr>
+              <td>Italy Pizza</td>
+              <td>$32</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+             <tr>
+              <td>Jooja Kabab</td>
+              <td>$10</td>
+              <td><span class="badge bg-danger">Unvailable</span></td>
+            </tr>
+             <tr>
+              <td>Carrot juice</td>
+              <td>$9</td>
+              <td><span class="badge bg-success">Available</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- order part -->
+<div class="container mt-5 py-4" style="background-color:#FAF7F3;">
+  <h2 class="text-center mb-4">Order Form</h2>
+  <form action="#" method="post">
+    <div class="row px-5">
+      <!-- Left Side -->
+      <div class="col-md-6 mb-4">
+        <label for="InputName" class="form-label">Customer Name</label>
+        <input type="text" class="form-control mb-3" id="InputName">
+
+        <label for="InputNumber" class="form-label">Phone Number</label>
+        <input type="number" class="form-control mb-3" id="InputNumber">
+
+        <label for="SelectRestaurant" class="form-label">Select Restaurant</label>
+        <select class="form-select" id="SelectRestaurant">
+           <option></option>
+          <option>ARG Restaurant</option>
+          <option>Fifty Fifty </option>
+          <option>Luky Five</option>
+          <option>Parmes</option>
+          <option>Ziyafat</option>
+          <option>Qoqnoos</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label">Menu Items</label>
+        <div class="row">
+          <div class="col-6">
+            <div class="form-check custom-check">
+              <input class="form-check-input" type="checkbox" id="item1">
+              <label class="form-check-label" for="item1">Kabuli Pulao</label>
+            </div>
+            <div class="form-check custom-check">
+              <input class="form-check-input" type="checkbox" id="item2">
+              <label class="form-check-label" for="item2">Pizza</label>
+            </div>
+            <div class="form-check custom-check">
+              <input class="form-check-input" type="checkbox" id="item3">
+              <label class="form-check-label" for="item3">Jooja Kabab</label>
+            </div>
+            <div class="form-check custom-check">
+              <input class="form-check-input" type="checkbox" id="item4">
+              <label class="form-check-label" for="item4">Carrot Juice</label>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="form-check custom-check">
+              <input class="form-check-input" type="checkbox" id="item5">
+              <label class="form-check-label" for="item5">Kofta</label>
+            </div>
+            <div class="form-check custom-check">
+              <input class="form-check-input" type="checkbox" id="item6">
+              <label class="form-check-label" for="item6">Qauil Kabab</label>
+            </div>
+            <div class="form-check custom-check">
+              <input class="form-check-input" type="checkbox" id="item7">
+              <label class="form-check-label" for="item7">Italy Pizza</label>
+            </div>
+             <div class="form-check custom-check">
+              <input class="form-check-input" type="checkbox" id="item7">
+              <label class="form-check-label" for="item7">Greek slad</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 text-center pt-4">
+        <button type="submit" class="btn btn-success px-5">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- About Us -->
+  <div class="container" id="about">
+    <div class="row gy-4 align-items-center justify-content-center">
+      <div class="col-12 col-md-6  text-center text-md-start">
+        <img src="photo/about.png" alt="about image" class="img-fluid about-img">
+      </div>
+      <div class="col-12 col-md-6 ">
+        <h2 class="about-title">About us</h2>
+        <div class="break my-3"></div>
+        <p class="about-text">At Foodie Hub, we aim to revolutionize food delivery by connecting users to the finest Afghan restaurants in one place</p>
+        <p class="about-text">Our platform offers a wide selection of meals, easy ordering, and prompt delivery services.</p>
+      </div>
+    </div>
+  </div>
+    </main>
+       <footer id="contact" style="background-color: #FAF7F3; color: black;">
+    <div class="container Last py-4">
+          <div class="row">
+            <div class="col-12 col-md-6 text-center text-md-start">
+              <p><i class="fa-solid fa-envelope"></i>Email: info@foodiehub.com</p>
+              <p><i class="fa-solid fa-phone"></i>Phone: +93 700 123 456</p>
+               <p><i class="fa-solid fa-location-dot"></i>Address: Herat, Afghanistan</p>
+            </div>
+         <div class="col-12 col-md-6 text-center text-md-end">
+          <a href="https://www.linkedin.com/in/masouma-najafi-996a252b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/masouma-2025" ><i class="fa-brands fa-square-instagram"></i></a>
+          <a href="https://x.com/masouma_n" ><i class="fa-brands fa-square-x-twitter"></i></a>
+         </div>
+         </div>
+        <p class="text-center mt-3">&copy; 2025 Foodie Hub. All rights reserved.</p>
+    </div>
+  </footer>
+ </body>
+ </html>
